@@ -1,0 +1,4 @@
+repository "lab1@akkasogluatakan@cloud"
+  path "/"
+    br "/main"
+    co "/main"
