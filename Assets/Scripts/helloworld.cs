@@ -12,7 +12,7 @@ public class NewBehaviourScript : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        print("hello world");
+        print("hellowo world");
     }
 
     // Update is called once per frame
