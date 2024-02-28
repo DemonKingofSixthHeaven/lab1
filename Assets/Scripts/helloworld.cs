@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class NewBehaviourScript : MonoBehaviour
 {
+    public GameObject BMO;
     int i = 0;
  
     public TextMeshPro number; 
@@ -20,6 +21,13 @@ public class NewBehaviourScript : MonoBehaviour
     {
         
         number.text = i.ToString();
-        i++;
+        
+    }
+    private void OnCollisionEnter(Collision collision)
+    {
+        if (collision.collider.tag == "ground")
+        {
+            i++;
+        }
     }
 }
