@@ -25,7 +25,7 @@ public class NewBehaviourScript : MonoBehaviour
     }
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.collider.tag == "ground")
+        if (collision.collider.tag == "point")
         {
             i++;
         }
